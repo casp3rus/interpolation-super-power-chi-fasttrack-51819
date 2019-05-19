@@ -1,10 +1,3 @@
-bob = ["Bob", 46, "Juggler", "555-555-5555"]
-stefani = ["Stefani", 49, "Firefighter", "555-111-1111"]
-def print_business_card(person)
-  puts "Name: #{person[0]}, Age: #{person[1]}, Occupation: #{person[2]}"
-  puts "Contact: #{person[3]}"
+def display_rainbow(color_list)
+  puts "R: #{color_list[0]}, O: #{color_list[1]}, Y: #{color_list[2]}, G: #{color_list[3]}, B: #{color_list[4]}, I: #{color_list[5]}, V: #{color_list[6]}"
 end
-
-print_business_card(bob)
-
-print_business_card(stefani)
